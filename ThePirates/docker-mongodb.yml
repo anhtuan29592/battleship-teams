@@ -1,0 +1,6 @@
+mongo:
+  image: mongo
+  ports:
+    - 27017:27017
+  volumes:
+    - the_pirate_log:/data/db
